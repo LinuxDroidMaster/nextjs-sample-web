@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --footer-bg-color: #f5f5f5; /* Light mode footer background */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Manual Dark Mode Toggle: When the <html> element has the "dark" class */
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --footer-bg-color: #333; /* Dark mode footer background */
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
