@@ -2,9 +2,10 @@
 
 This repository contains a **minimalist** and **modern** Next.js website built with a dark/light mode toggle, sleek navbar, and tab-based navigation. It serves as a demo on how to use ChatGPT to develop a web app and deploy it anywhere—even on Vercel—as well as how to develop it on an Android device, Windows PC, or Linux SBCs (like Raspberry Pi or Orange Pi). 💻📱🖥️
 
-> ### 🚨 **IMPORTANT: Tutorial Video Pending Publication** 🚨
-> 
-> The video tutorial on using ChatGPT for web development is **pending publication**. Stay tuned for the link!
+### 📺 **Watch the Full Tutorial on YouTube!**  
+The complete video tutorial on how to develop and deploy this Next.js project is now available:  
+**[Watch it here!](https://youtu.be/5jLo39VhsNU)**
+
 
 ## Features ✨
 
